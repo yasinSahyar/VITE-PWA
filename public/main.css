@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.form-control input[type="text"],
+.form-control input[type="email"],
+.form-control input[type="password"],
+.form-control input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+
+/* Center the forms */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form items */
+  justify-content: center; /* Center form items */
+}
